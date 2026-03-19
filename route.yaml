@@ -12,4 +12,6 @@ spec:
     kind: Service
     name: my-app
     weight: 100
+  tls:
+    termination: edge
   wildcardPolicy: None
